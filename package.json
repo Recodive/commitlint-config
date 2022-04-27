@@ -1,0 +1,30 @@
+{
+	"name": "@recodive/commitlint-config",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"prepare": "is-ci || husky install",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Recodive/commitlint-config.git"
+	},
+	"author": "Recodive",
+	"license": "MPL-2.0",
+	"bugs": {
+		"url": "https://github.com/Recodive/commitlint-config/issues"
+	},
+	"homepage": "https://github.com/Recodive/commitlint-config#readme",
+	"dependencies": {
+		"commitlint-plugin-function-rules": "^1.6.2"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^16.2.3",
+		"@commitlint/lint": "^16.2.1",
+		"husky": "^7.0.4",
+		"is-ci": "^3.0.1",
+		"jest": "^28.0.2"
+	}
+}
