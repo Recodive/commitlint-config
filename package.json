@@ -23,7 +23,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^16.2.3",
 		"@commitlint/lint": "^16.2.1",
-		"husky": "^7.0.4",
+		"husky": "^8.0.2",
 		"is-ci": "^3.0.1",
 		"jest": "^28.0.2"
 	}
