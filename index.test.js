@@ -50,7 +50,7 @@ test("an invalid scope", async () => {
 
 	expect(valid).toBe(false);
 	expect(errors[0].message).toBe(
-		"type must be one of [build, ci, docs, feat, fix, perf, refactor, revert, style, test]"
+		"type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test]"
 	);
 	expect(warnings).toStrictEqual([]);
 });
